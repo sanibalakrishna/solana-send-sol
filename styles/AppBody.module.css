@@ -1,0 +1,35 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: middle;
+    align-items: center;
+}
+
+.button {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    background-color:lightgreen;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10%;
+  }
+.button:active{
+    scale:95%;
+}
+.AppBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+.AppBody > input{
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: larger;
+
+}
