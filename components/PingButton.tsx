@@ -39,7 +39,7 @@ const PingButton: FC = () => {
   return (
     <div className={styles.buttonContainer} onClick={onClick}>
       {connected ? (
-        <button className={styles.button}>Ping Message!</button>
+        <button className={styles.button}>Ping</button>
       ) : (
         <h1>Please Connection to the Wallet to Enable the Ping Button</h1>
       )}
